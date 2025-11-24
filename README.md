@@ -1,7 +1,7 @@
 # Todo List 项目题目
 
 ## 任务概述
-实现一个包含前端（React）和后端（Node.js + Express）的简易 Todo List Web 应用，功能聚焦在任务的增删改查以及用户的基本认证。项目要求代码结构清晰、前后端分离，并提供 Docker Compose 一键启动脚本。
+实现一个包含前端（Vue）和后端（Pythoh+Fastapi）的简易 Todo List Web 应用，功能聚焦在任务的增删改查以及用户的基本认证。项目要求代码结构清晰、前后端分离，并提供 Docker Compose 一键启动脚本。
 
 ## 功能要求
 1. **用户模块**
