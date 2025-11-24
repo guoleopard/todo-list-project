@@ -15,11 +15,11 @@
    - 删除任务
    - 按完成状态或截止日期筛选任务
 3. **前端要求**
-   - 使用 React（可选 Vue/Angular）实现单页应用
+   - 使用 Vue 实现单页应用
    - UI 简洁，建议使用 Ant Design、Material‑UI 等组件库
    - 与后端 RESTful API 完成交互，展示加载、错误提示
 4. **后端要求**
-   - Node.js + Express，使用 SQLite 或 PostgreSQL 持久化数据
+   - Python + Fastapi，使用 SQLite 或 Mysql 持久化数据
    - 提供符合 REST 规范的 API，实现用户认证、任务 CRUD
    - 对所有入口进行基本的输入校验与错误处理
 5. **部署**
@@ -29,8 +29,8 @@
 ## 项目结构（示例）
 ```
 .todo-list-project/
-├─ frontend/      # React 项目代码
-├─ backend/       # Express 项目代码
+├─ frontend/      # Vue 项目代码
+├─ backend/       # Fastapi 项目代码
 ├─ db/            # 数据库初始化脚本
 ├─ docker-compose.yml
 └─ README.md
